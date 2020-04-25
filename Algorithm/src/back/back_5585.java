@@ -2,7 +2,7 @@ package back;
 
 import java.util.Scanner;
 
-public class back5585 {
+public class back_5585 {
 
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
