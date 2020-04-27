@@ -2,7 +2,7 @@ package back;
 
 import java.util.Scanner;
 
-public class back_1038 {
+public class Back_1038 {
 
 	static Scanner sc = new Scanner(System.in);
 
