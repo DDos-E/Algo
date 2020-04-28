@@ -16,19 +16,25 @@ public class Back_11724 {
 	// 결과값
 	static int result = 0;
 	
+	// 그래프
 	static int[][] arr;
+	
+	// 정점 방문 여부를 확인할 배열
 	static boolean[] nBool;
 
 	static Queue<Integer> queue = new LinkedList<Integer>();
 	
 	public static void main(String[] args) {
+		
 		n = sc.nextInt();
 		m = sc.nextInt();
 		
 		arr  = new int[n+1][n+1];
 		nBool = new boolean[n+1];
 		
-        for(int i=1;i<=m;i++) {
+        
+		
+		for(int i=1;i<=m;i++) {
         	int x = sc.nextInt();
         	int y = sc.nextInt();
         	arr[x][y] = 1;
@@ -40,7 +46,6 @@ public class Back_11724 {
         		result++;
         	}
 		}
-        
         System.out.println(result);
 	}
 	
