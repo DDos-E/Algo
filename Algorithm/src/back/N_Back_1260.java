@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Back_1260 {
+public class N_Back_1260 {
 
 	static Scanner sc = new Scanner(System.in);
 	
@@ -123,20 +123,20 @@ public class Back_1260 {
 			resultArr[1][index++] = j1+1;
 		}
 		for (int i = 0; i < n; i++) {
-			if(intArr[j1][i] != 0 && !boolArr[j1][j2]) {
-				queue.add(i);
-			}
+//			if(intArr[j1][i] != 0 && !boolArr[j1][j2]) {
+//				queue.add(i);
+//			}
 		}
 		
 		// 정점과 정점이 연결되어있으며, 그 정점을 이용하지 않았을 경우
 //		if(intArr[j1][j2] != 0 && !boolArr[j1][j2]) {
 			// BFS전용 처리
-			boolN[j2] = true;
+//			boolN[j2] = true;
 //			resultArr[1][index++] = j2+1;
 
 			// 정점을 이용했다고 처리해주기
-			boolArr[j1][j2] = true;
-			boolArr[j2][j1] = true;
+//			boolArr[j1][j2] = true;
+//			boolArr[j2][j1] = true;
 //		}
 		
 		

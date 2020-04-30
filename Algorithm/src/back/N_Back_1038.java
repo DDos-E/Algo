@@ -2,7 +2,7 @@ package back;
 
 import java.util.Scanner;
 
-public class Back_1038 {
+public class N_Back_1038 {
 
 	static Scanner sc = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class Back_1038 {
 			result = n;
 			
 		}else {
-			Queue<Long> que
+//			Queue<Long> que
 		}
 		
 		
