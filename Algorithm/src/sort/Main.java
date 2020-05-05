@@ -25,6 +25,9 @@ public class Main {
         //퀵 정렬
         quickSort(arr);
         
+        //힙 정렬
+        
+        
         for(int i:arr)
         	System.out.print(i+" ");
         
@@ -35,6 +38,7 @@ public class Main {
 		arr[start] = arr[end];
 		arr[end] = temp;
 	}
+	
 	//퀵 정렬
 	private static void quickSort(int[] arr) {
 		quickSort(arr, 0, arr.length - 1);
